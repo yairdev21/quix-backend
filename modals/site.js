@@ -37,6 +37,10 @@ const siteSchema = new mongoose.Schema({
                 required: true
             },
 
+            style: {
+                type: Object,
+            },
+
             elements: [
                 {
                     name: {
