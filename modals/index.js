@@ -7,4 +7,4 @@ mongoose.Promise = Promise;
 module.exports.User = require('./user');
 // module.exports.User = require('./element');
 
-// module.exports.Site = require('./site');
+module.exports.Site = require('./site');

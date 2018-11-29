@@ -4,7 +4,7 @@ const hendleApi = require('../services/api.service');
 
 router.route('/')
         .get( hendleApi.getTamplates )
-        // .post( hendleApi.addMessage );
+        .post( hendleApi.addSite );
 
 // router.route('/:id')
 //         .get( hendleApi.getOneMessage )

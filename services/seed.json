@@ -1,0 +1,114 @@
+{   
+    "name": "default",
+    "thumb":"http://res.cloudinary.com/bebarefoot/image/upload/v1543487789/yduj9uttcwn3ahowbp36.png",
+    "sections": [{
+            "type": "section",
+            "name": "header",
+            "data": {   
+                "sm": "12"
+            },
+            "elements": [{
+                "type": "text",
+                "name": "h1",
+                "data": {
+                    "text": "BotiQucumber"
+                },
+                "style": {
+                    "color":"white",
+                    "margin-top":"90px",
+                    "font-size":"500%"
+                }
+            }],
+            "style": {
+                "backgroundImage": "url(https://data2.1freewallpapers.com/detail/cucumbers-pickles-salted.jpg)",
+                "height": "450px",
+                "background-repeat": "no-repeat",
+                "background-size": "cover",
+                "padding": "15vh 0"
+            }
+        },
+        {
+            "type": "section",
+            "name": "twoColsSection",
+            "data": {
+                "sm": "4"
+            },
+            "style": {},
+            "elements": [{
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "A place where all of your cucumber dreams come true!"
+                    }
+                },
+                {
+                    "type": "video",
+                    "name": "video",
+                    "data": {
+                        "src":"https://www.youtube.com/watch?v=n9SwtdrkVHE"
+                    }
+                },
+                {
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Gorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "name": "oneColSection",
+            "data": {
+                "sm": "12"
+            },
+            "elements": [{
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Section Title"
+                    }
+                },
+                {
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "This is our logo"
+                    }
+                },
+                {
+                    "type": "img",
+                    "name": "img",
+                    "data": {
+                        "src": "https://res.cloudinary.com/bebarefoot/image/upload/v1543412980/samples/ecommerce/leather-bag-gray.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "name": "footer",
+            "data": {
+                "sm": "6"
+            },
+            "style": {},
+            "elements": [{
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                },
+                {
+                    "type": "map",
+                    "name": "map",
+                    "data": {
+                        "lat": "32.0880288",
+                        "lng": "34.803230100000064"
+                    }
+                }
+            ]
+        }
+    ]
+}
