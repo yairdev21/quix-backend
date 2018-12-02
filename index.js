@@ -12,9 +12,9 @@ const errorHendler = require('./error-service/errors.service');
 const userRoute = require('./routes/user.route');
 const templatesRoute = require('./routes/sites.route');
 
+app.use(express.static('public'));
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
-
 app.use('/sites', templatesRoute );
 app.use('/user', userRoute );
  
@@ -29,5 +29,9 @@ app.use((req, res, next) => {
     next(error);
 });
 app.use(errorHendler);
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`App listening on port ${port}!`)
+ });
  
-app.listen(process.env.PORT , () => console.log('on line'));
