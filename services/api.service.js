@@ -14,6 +14,19 @@ const hendleApi = {
         }
     },
 
+    async getSingleTamplate(req, res, next) {
+        try {
+            const tamplate = await Site.findById(req.params.id);
+
+            res.status(200).json({
+                tamplate
+            });
+
+        } catch (err) {
+            next(err)
+        }
+    },
+
     async addSite(req, res, next) {
         try {
             let site = await Site.create(req.body);
