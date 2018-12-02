@@ -2,7 +2,7 @@ const { Site, User } = require('../modals');
 const seed = require('./seed');
 
 const hendleApi = {
-    getTamplates(req, res, next) {
+    getTemplates(req, res, next) {
         res.status(200).json({
             message: 'getting data'
         });

@@ -10,12 +10,12 @@ sessionManagementConfig(app);
 const bodyParser = require('body-parser');
 const errorHendler = require('./error-service/errors.service');
 const userRoute = require('./routes/user.route');
-const tamplatesRoute = require('./routes/sites.route');
+const templatesRoute = require('./routes/sites.route');
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use('/sites', tamplatesRoute );
+app.use('/sites', templatesRoute );
 app.use('/user', userRoute );
  
 app.get('/', (req, res) => {
