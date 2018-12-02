@@ -9,43 +9,23 @@ const hendleApi = {
     },
 
     async addSite(req, res, next) {
-        const sites = seed.sites;
-        sites.forEach(async(siteEl) => {
-            try {
-                let site = await Site.create( siteEl );
-    
-                  if(req.params.id) {
-                    let foundUser = await User.findById(req.params.id);
-                    foundUser.sites.push(site.id);
-    
-                    await foundUser.save();
-                    let foundSite = await Site.findById(site._id).populate("user", {
-                      username: true,
-                    });
-                  }
-    
-                  return res.status(200).json(site);
-            } catch (err) {
-                next(err)
-            }
-        });
-        // try {
-        //     let site = await Site.create( seed );
+        try {
+            let site = await Site.create( req.body );
 
-        //       if(req.params.id) {
-        //         let foundUser = await User.findById(req.params.id);
-        //         foundUser.sites.push(site.id);
+              if(req.params.id) {
+                let foundUser = await User.findById(req.params.id);
+                foundUser.sites.push(site.id);
 
-        //         await foundUser.save();
-        //         let foundSite = await Site.findById(site._id).populate("user", {
-        //           username: true,
-        //         });
-        //       }
+                await foundUser.save();
+                let foundSite = await Site.findById(site._id).populate("user", {
+                  username: true,
+                });
+              }
 
-        //       return res.status(200).json(site);
-        // } catch (err) {
-        //     next(err)
-        // }
+              return res.status(200).json(site);
+        } catch (err) {
+            next(err)
+        }
     }
 }
 
