@@ -1,11 +1,17 @@
 const { Site, User } = require('../modals');
-const seed = require('./seed');
 
 const hendleApi = {
-    getTamplates(req, res, next) {
-        res.status(200).json({
-            message: 'getting data'
-        });
+    async getTamplates(req, res, next) {
+        try {
+            const tamplates = await Site.find();
+
+            res.status(200).json({
+                tamplates
+            });
+
+        } catch (err) {
+            next(err)
+        }
     },
 
     async addSite(req, res, next) {
