@@ -39,6 +39,7 @@ const siteSchema = new mongoose.Schema({
 
             style: {
                 type: Object,
+                default: {}
             },
 
             elements: [
@@ -60,6 +61,7 @@ const siteSchema = new mongoose.Schema({
 
                     style: {
                         type: Object,
+                        default: {}
                     }
 
                 }
