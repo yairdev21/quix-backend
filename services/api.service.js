@@ -2,15 +2,9 @@ const { Site, User } = require('../modals');
 const seed = require('../services/seed.json')
 
 const hendleApi = {
-<<<<<<< HEAD
     async getTemplates(req, res, next) {
         try {
             const templates = await Site.find();
-=======
-    async getTamplates(req, res, next) {
-        try {            
-            const tamplates = await Site.find();
->>>>>>> 6ad7bc010b5761f81215cefbda6e657c48869f23
 
             res.status(200).json({
                 templates
