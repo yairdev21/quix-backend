@@ -6,8 +6,8 @@ router.route('/')
         .get( hendleApi.getTamplates )
         .post( hendleApi.addSite );
 
-// router.route('/:id')
-//         .get( hendleApi.getOneMessage )
+router.route('/:id')
+        .get( hendleApi.getSingleTamplate )
 //         .put( hendleApi.updateMessage )
 //         .delete( hendleApi.deleteMessage );
 
