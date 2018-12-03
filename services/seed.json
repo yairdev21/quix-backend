@@ -1,474 +1,484 @@
-{ "sites": [{   
-    "name": "default",
-    "thumb":"http://res.cloudinary.com/bebarefoot/image/upload/v1543487789/yduj9uttcwn3ahowbp36.png",
-    "sections": [{
-            "type": "section",
-            "name": "header",
-            "data": {   
-                "sm": "12"
-            },
-            "elements": [{
-                "type": "text",
-                "name": "h1",
-                "data": {
-                    "text": "BotiQucumber"
-                },
-                "style": {
-                    "color":"white",
-                    "margin-top":"90px",
-                    "font-size":"500%"
-                }
-            }],
-            "style": {
-                "backgroundImage": "url(https://data2.1freewallpapers.com/detail/cucumbers-pickles-salted.jpg)",
-                "height": "450px",
-                "background-repeat": "no-repeat",
-                "background-size": "cover",
-                "padding": "15vh 0"
-            }
-        },
-        {
-            "type": "section",
-            "name": "twoColsSection",
-            "data": {
-                "sm": "4"
-            },
-            "style": {},
-            "elements": [{
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "A place where all of your cucumber dreams come true!"
-                    }
-                },
-                {
-                    "type": "video",
-                    "name": "video",
-                    "data": {
-                        "src":"https://www.youtube.com/watch?v=n9SwtdrkVHE"
-                    }
-                },
-                {
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Gorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
-                    }
-                }
-            ]
-        },
-        {
-            "type": "section",
-            "name": "oneColSection",
-            "data": {
-                "sm": "12"
-            },
-            "elements": [{
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Section Title"
-                    }
-                },
-                {
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "This is our logo"
-                    }
-                },
-                {
-                    "type": "img",
-                    "name": "img",
-                    "data": {
-                        "src": "https://res.cloudinary.com/bebarefoot/image/upload/v1543412980/samples/ecommerce/leather-bag-gray.jpg"
-                    }
-                }
-            ]
-        },
-        {
-            "type": "section",
-            "name": "footer",
-            "data": {
-                "sm": "6"
-            },
-            "style": {},
-            "elements": [{
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
-                    }
-                },
-                {
-                    "type": "map",
-                    "name": "map",
-                    "data": {
-                        "lat": "32.0880288",
-                        "lng": "34.803230100000064"
-                    }
-                }
-            ]
-        }
-    ]
-},
-
 {
-    "name": "Gitit",
-    "thumb": "http://res.cloudinary.com/shuvy/image/upload/v1533415097/yduj9uttcwn3ahowbp36.png",
-    "sections": [{
-            "type": "section",
-            "name": "header",
-            "data": {
-                "sm": "12"
-            },
-            "elements": [{
-                "type": "text",
-                "name": "p",
-                "data": {
-                    "text": "גיתית רעפים בלי נדר"
-                }
-            }],
-            "style": {
-                "color": "white",
-                "background": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROaLRgntDGwfmxWQ7GMUZsr3gR15Ffj8icpyODKs15rzGacLQiHQ)",
-                "height": "550px",
-                "background-repeat": "no-repeat",
-                "background-size": "cover",
-                "padding": "15vh 0"
-            }
-        },
-        {
-            "type": "section",
-            "name": "oneColSection",
-            "data": {
-                "sm": "12"
-            },
-            "style": {
-            },
-            "elements": [{
-                "type": "text",
-                "name": "p",
-                "data": {
-                    "text": "?נמאס לכם שהרעפים שלכם לא של גיתית"
-                }
-            },
-            {
-                "type": "img",
-                "name": "img",
-                "data": {
-                    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5fCxeQjT0NR_ibpN47elIFMW-iWo9s4Pfm_h7b2TrRO938rIiwA"
-                }
-            }]
-        },
-        {
-            "type": "section",
-            "name": "towColsSection",
-            "data": {
-                "sm": "12"
-            },
-            "style": {
-            },
-            "elements": [{
-                "type": "text",
-                "name": "p",
-                "data": {
-                    "text": "כל צרכי הריעוף לגבר ולאשה תחת קורת גג אחת"
+    "sites": [{
+            "name": "default",
+            "thumb": "http://res.cloudinary.com/bebarefoot/image/upload/v1543487789/yduj9uttcwn3ahowbp36.png",
+            "sections": [{
+                    "type": "section",
+                    "name": "header",
+                    "data": {
+                        "sm": "12"
+                    },
+                    
+                    "elements": [{
+                        "type": "text",
+                        "name": "h1",
+                        "data": {
+                            "text": "BotiQucumber"
+                        },
+                        "style": {
+                            "color": "white",
+                            "margin-top": "90px",
+                            "font-size": "500%"
+                        }
+                    }],
+                    "style": {
+                        "backgroundImage": "url(https://data2.1freewallpapers.com/detail/cucumbers-pickles-salted.jpg)",
+                        "height": "450px",
+                        "background-repeat": "no-repeat",
+                        "background-size": "cover",
+                        "padding": "15vh 0"
+                    }
                 },
-                "style": {
-                    "font-weight": "bolder",
-                    "color": "black",
-                    "font-size": "180%",
-                    "margin": "5rem auto"
+                {
+                    "type": "section",
+                    "name": "twoColsSection",
+                    "data": {
+                        "sm": "4"
+                    },
+                    "style": { "background": "white"},
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "A place where all of your cucumber dreams come!"
+                            }
+                        },
+                        {
+                            "type": "video",
+                            "name": "video",
+                            "data": {
+                                "src": "https://www.youtube.com/watch?v=n9SwtdrkVHE"
+                            },
+                            "style": {}
+                        },
+                        {
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Gorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                            },
+                            "style": {}
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "oneColSection",
+                    "data": {
+                        "sm": "12"
+                    },
+                    "style": {},
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Section Title"
+                            },
+                            "style": {}
+                        },
+                        {
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "This is our logo"
+                            },
+                            "style": {}
+                        },
+                        {
+                            "type": "img",
+                            "name": "img",
+                            "data": {
+                                "src": "https://res.cloudinary.com/bebarefoot/image/upload/v1543412980/samples/ecommerce/leather-bag-gray.jpg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "footer",
+                    "data": {
+                        "sm": "6"
+                    },
+                    "style": {},
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                            }
+                        },
+                        {
+                            "type": "map",
+                            "name": "map",
+                            "data": {
+                                "lat": "32.0880288",
+                                "lng": "34.803230100000064"
+                            }
+                        }
+                    ]
                 }
-            }]
+            ]
         },
 
         {
-            "type": "section",
-            "name": "footer",
-            "data": {
-                "sm": "6"
-            },
-            "style": {},
-            "elements": [{
-                    "type": "text",
-                    "name": "p",
+            "name": "Gitit",
+            "thumb": "http://res.cloudinary.com/shuvy/image/upload/v1533415097/yduj9uttcwn3ahowbp36.png",
+            "sections": [{
+                    "type": "section",
+                    "name": "header",
                     "data": {
-                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                        "sm": "12"
+                    },
+                    "style": {},
+                    "elements": [{
+                        "type": "text",
+                        "name": "p",
+                        "data": {
+                            "text": "גיתית רעפים בלי נדר"
+                        }
+                   
+                    }],
+                    "style": {
+                        "color": "white",
+                        "background": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROaLRgntDGwfmxWQ7GMUZsr3gR15Ffj8icpyODKs15rzGacLQiHQ)",
+                        "height": "550px",
+                        "background-repeat": "no-repeat",
+                        "background-size": "cover",
+                        "padding": "15vh 0"
                     }
                 },
                 {
-                    "type": "map",
-                    "name": "map",
+                    "type": "section",
+                    "name": "oneColSection",
                     "data": {
-                        "lat": "32.0880288",
-                        "lng": "34.803230100000064"
-                    }
+                        "sm": "12"
+                    },
+                    "style": {},
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "?נמאס לכם שהרעפים שלכם לא של גיתית"
+                            }
+                        },
+                        {
+                            "type": "img",
+                            "name": "img",
+                            "data": {
+                                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5fCxeQjT0NR_ibpN47elIFMW-iWo9s4Pfm_h7b2TrRO938rIiwA"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "towColsSection",
+                    "data": {
+                        "sm": "12"
+                    },
+                    "style": {},
+                    "elements": [{
+                        "type": "text",
+                        "name": "p",
+                        "data": {
+                            "text": "כל צרכי הריעוף לגבר ולאשה תחת קורת גג אחת"
+                        },
+                        "style": {
+                            "font-weight": "bolder",
+                            "color": "black",
+                            "font-size": "180%",
+                            "margin": "5rem auto"
+                        }
+                    }]
+                },
+
+                {
+                    "type": "section",
+                    "name": "footer",
+                    "data": {
+                        "sm": "6"
+                    },
+                    "style": {},
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                            }
+                        },
+                        {
+                            "type": "map",
+                            "name": "map",
+                            "data": {
+                                "lat": "32.0880288",
+                                "lng": "34.803230100000064"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "eatingSite",
+            "thumb": "http://res.cloudinary.com/shuvy/image/upload/v1533400161/vmb1keecmv2t2qdhqet2.png",
+            "sections": [{
+                    "type": "section",
+                    "name": "header",
+                    "data": {
+                        "sm": "12"
+                    },
+                    "style": {
+                        "color": "white",
+                        "background": "url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67fb2e7b1fbe39b18b51146234ef38aa&w=1000&q=80)",
+                        "display": "block",
+                        "height": "450px",
+                        "margin": "0 auto",
+                        "background-repeat": "no-repeat",
+                        "background-size": "cover",
+                        "padding": "10vh 0"
+                    },
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Have a bite"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "We know you want to..."
+                            },
+                            "style": {
+                                "font-weight": "bolder",
+                                "color": "black",
+                                "font-size": "180%",
+                                "margin": "5rem auto"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "towColsSection",
+                    "data": {
+                        "sm": "6"
+                    },
+                    "style": {
+                        "background": "white"
+                    },
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Gourmet food for the people"
+                            },
+                            "style": {
+                                "font-weight": "bolder",
+                                "color": "black",
+                                "font-size": "180%",
+                                "margin": "5rem auto"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Wasting only the finest ingredients!"
+                            },
+                            "style": {
+                                "font-weight": "bolder",
+                                "color": "black",
+                                "font-size": "180%",
+                                "margin": "5rem auto"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "oneColSection",
+                    "data": {
+                        "sm": "12"
+                    },
+                    "style": {
+                        "background": "white"
+                    },
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Sample Menu:"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "(Can change if you pay us)"
+                            }
+                        },
+                        {
+                            "type": "img",
+                            "name": "img",
+                            "data": {
+                                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0T6zAr6-VdNWcVwYVhsMHiCZcrVqAeFXsThNI6E1GYSNplql"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "footer",
+                    "data": {
+                        "sm": "6"
+                    },
+                    "style": {},
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                            }
+                        },
+                        {
+                            "type": "map",
+                            "name": "map",
+                            "data": {
+                                "lat": "32.0880288",
+                                "lng": "34.803230100000064"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "travelSite",
+            "thumb": "http://res.cloudinary.com/shuvy/image/upload/v1534250831/xi9cvczp13ot7ockb6as.png",
+            "sections": [{
+                    "type": "section",
+                    "name": "header",
+                    "data": {
+                        "sm": "12"
+                    },
+                    "style": {
+                        "color": "white",
+                        "background": "url(https://4.bp.blogspot.com/-78_bE0vJdhk/UAe8Dq4oCVI/AAAAAAAAHCg/BGkJXsyeYyc/s1600/Hdhut.blogspot.com+%2810%29.jpg)",
+                        "height": "550px",
+                        "background-repeat": "no-repeat",
+                        "background-size": "cover",
+                        "padding": "10vh 0"
+                    },
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "It's Travling Time"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "We can take you there"
+                            },
+                            "style": {
+                                "font-weight": "bolder",
+                                "color": "black",
+                                "font-size": "180%",
+                                "margin": "5rem auto"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "towColsSection",
+                    "data": {
+                        "sm": "6"
+                    },
+                    "style": {
+                        "background": "white"
+                    },
+                    "elements": [{
+                            "type": "img",
+                            "name": "img",
+                            "data": {
+                                "src": "https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=350"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Everything is under control"
+                            },
+                            "style": {
+                                "font-weight": "bolder",
+                                "color": "black",
+                                "font-size": "180%",
+                                "margin": "5rem auto"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "oneColSection",
+                    "data": {
+                        "sm": "12"
+                    },
+                    "style": {},
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Sample Menu:"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "(Can change if you pay us)"
+                            }
+                        },
+                        {
+                            "type": "img",
+                            "name": "img",
+                            "data": {
+                                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0T6zAr6-VdNWcVwYVhsMHiCZcrVqAeFXsThNI6E1GYSNplql"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "footer",
+                    "data": {
+                        "sm": "6"
+                    },
+                    "style": {},
+                    "elements": [{
+                            "type": "text",
+                            "name": "p",
+                            "data": {
+                                "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                            }
+                        },
+                        {
+                            "type": "map",
+                            "name": "map",
+                            "data": {
+                                "lat": "32.0880288",
+                                "lng": "34.803230100000064"
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ]
-},
-{
-    "name": "eatingSite",
-    "thumb": "http://res.cloudinary.com/shuvy/image/upload/v1533400161/vmb1keecmv2t2qdhqet2.png",
-    "sections": [{
-            "type": "section",
-            "name": "header",
-            "data": {
-                "sm": "12"
-            },
-            "style": {
-                "color": "white",
-                "background": "url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67fb2e7b1fbe39b18b51146234ef38aa&w=1000&q=80)",
-                "display": "block",
-                "height": "450px",
-                "margin": "0 auto",
-                "background-repeat": "no-repeat",
-                "background-size": "cover",
-                "padding": "10vh 0"
-            },
-            "elements": [{
-                "type": "text",
-                "name": "p",
-                "data": {
-                    "text": "Have a bite"
-                }
-            },
-            {
-                "type": "text",
-                "name": "p",
-                "data": {
-                    "text": "We know you want to..."
-                },
-                "style": {
-                    "font-weight": "bolder",
-                    "color": "black",
-                    "font-size": "180%",
-                    "margin": "5rem auto"
-                }
-            }]
-        },
-        {
-            "type": "section",
-            "name": "towColsSection",
-            "data": {
-                "sm": "6"
-            },
-            "style": {
-                "background": "white"
-            },
-            "elements": [{
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Gourmet food for the people"
-                    },
-                    "style": {
-                        "font-weight": "bolder",
-                        "color": "black",
-                        "font-size": "180%",
-                        "margin": "5rem auto"
-                    }
-                },
-                {
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Wasting only the finest ingredients!"
-                    },
-                    "style": {
-                        "font-weight": "bolder",
-                        "color": "black",
-                        "font-size": "180%",
-                        "margin": "5rem auto"
-                    }
-                }
-            ]
-        },
-        {
-            "type": "section",
-            "name": "oneColSection",
-            "data": {
-                "sm": "12"
-            },
-            "style": {
-                "background": "white"
-            },
-            "elements": [{
-                "type": "text",
-                "name": "p",
-                "data": {
-                    "text": "Sample Menu:"
-                }
-            },
-            {
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "(Can change if you pay us)"
-                    }
-                },
-                {
-                    "type": "img",
-                    "name": "img",
-                    "data": {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0T6zAr6-VdNWcVwYVhsMHiCZcrVqAeFXsThNI6E1GYSNplql"
-                    }
-                }
-            ]
-        },
-        {
-            "type": "section",
-            "name": "footer",
-            "data": {
-                "sm": "6"
-            },
-            "style": {},
-            "elements": [{
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
-                    }
-                },
-                {
-                    "type": "map",
-                    "name": "map",
-                    "data": {
-                        "lat": "32.0880288",
-                        "lng": "34.803230100000064"
-                    }
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "travelSite",
-    "thumb": "http://res.cloudinary.com/shuvy/image/upload/v1534250831/xi9cvczp13ot7ockb6as.png",
-    "sections": [{
-            "type": "section",
-            "name": "header",
-            "data": {
-                "sm": "12"
-            },
-            "style": {
-                "color": "white",
-                "background": "url(https://4.bp.blogspot.com/-78_bE0vJdhk/UAe8Dq4oCVI/AAAAAAAAHCg/BGkJXsyeYyc/s1600/Hdhut.blogspot.com+%2810%29.jpg)",
-                "height": "550px",
-                "background-repeat": "no-repeat",
-                "background-size": "cover",
-                "padding": "10vh 0"
-            },
-            "elements": [{
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text":  "It's Travling Time"
-                    }
-                },
-                {
-                "type": "text",
-                "name": "p",
-                "data": {
-                    "text": "We can take you there"
-                },
-                "style": {
-                    "font-weight": "bolder",
-                    "color": "black",
-                    "font-size": "180%",
-                    "margin": "5rem auto"
-                }
-            }]
-        },
-        {
-            "type": "section",
-            "name": "towColsSection",
-            "data": {
-                "sm": "6"
-            },
-            "style": {
-                "background": "white"
-            },
-            "elements": [{
-                    "type": "img",
-                    "name": "img",
-                    "data": {
-                        "src": "https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=350"
-                    }
-                },
-                {
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Everything is under control"
-                    },
-                    "style": {
-                        "font-weight": "bolder",
-                        "color": "black",
-                        "font-size": "180%",
-                        "margin": "5rem auto"
-                    }
-                }
-            ]
-        },
-        {
-            "type": "section",
-            "name": "oneColSection",
-            "data": {
-                "sm": "12"
-            },
-            "style": {
-            },
-            "elements": [{
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Sample Menu:"
-                    }
-                },
-                {
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "(Can change if you pay us)"
-                    }
-                },
-                {
-                    "type": "img",
-                    "name": "img",
-                    "data": {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0T6zAr6-VdNWcVwYVhsMHiCZcrVqAeFXsThNI6E1GYSNplql"
-                    }
-                }
-            ]
-        },
-        {
-            "type": "section",
-            "name": "footer",
-            "data": {
-                "sm": "6"
-            },
-            "style": {},
-            "elements": [{
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
-                    }
-                },
-                {
-                    "type": "map",
-                    "name": "map",
-                    "data": {
-                        "lat": "32.0880288",
-                        "lng": "34.803230100000064"
-                    }
-                }
-            ]
-        }
-    ]
-}]
 }
