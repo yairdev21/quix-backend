@@ -28,11 +28,11 @@ const handleUser = {
         try {       
             const user = await User.findOne({ email: req.body.email });
 
-            const { userName, email, image } = user;
+            const { userName, email, image, id } = user;
             const isMatch = await user.comperePassword( req.body.password );
 
             if( isMatch ) {
-                req.session.login({userName, email, image},req, next)
+                req.session.login({ userName, email, image, id },req, next)
                 
                 res.status(200).json(req.session.userInfo)
             } else {                

@@ -21,7 +21,7 @@ module.exports = function sessionManagementConfig(app) {
         name: 'id'
     }));
  
-    session.Session.prototype.login = function(user,req, next){
+    session.Session.prototype.login = function( user, req, next){
         req.session.regenerate(function(err){
             if (err){
                 next(err);

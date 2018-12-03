@@ -3,7 +3,7 @@ const router = express.Router();
 const hendleApi = require('../services/api.service');
 
 router.route('/')
-        .get( hendleApi.getTamplates )
+        .get( hendleApi.getTemplates )
         .post( hendleApi.addSite );
 
 router.route('/:id')

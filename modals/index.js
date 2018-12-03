@@ -5,6 +5,4 @@ mongoose.connect( process.env.MONGOOSE_LOCALHOST , { useNewUrlParser: true, useC
 mongoose.Promise = Promise;
 
 module.exports.User = require('./user');
-// module.exports.User = require('./element');
-
 module.exports.Site = require('./site');
