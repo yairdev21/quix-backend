@@ -47,8 +47,10 @@ const hendleApi = {
         }
     },
 
-    async updateTamplate() {
+    async updateTamplate(req, res, next) {
         try {
+            // console.log('aaaaaaaaaaaaaaaaaaaa', req.body);
+            
             const tamplate = await Site.findByIdAndUpdate(req.params.id, req.body, {new: true});
 
             return res.status(200).json(tamplate);
