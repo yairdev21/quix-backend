@@ -8,7 +8,7 @@ router.route('/')
 
 router.route('/:id')
         .get( hendleApi.getSingleTamplate )
-//         .put( hendleApi.updateMessage )
+        .put( hendleApi.updateTamplate )
 //         .delete( hendleApi.deleteMessage );
 
 module.exports = router;
