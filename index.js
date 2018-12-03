@@ -13,7 +13,7 @@ const userRoute = require('./routes/user.route');
 const templatesRoute = require('./routes/sites.route');
 
 app.use(cors());
-// app.use(bodyParser.json())
+app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/sites', templatesRoute );
 app.use('/user', userRoute );
