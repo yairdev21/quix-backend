@@ -28,6 +28,15 @@ app.use((req, res, next) => {
 
     next(error);
 });
+
 app.use(errorHendler);
+// app.use((error, req, res, next ) => {
+//   console.log('inside!!!!!');
+//   console.log(error);
+  
+//   res.status(error.status || 500).json({
+//       message: error.message || 'Try again later'
+//   })
+// })
  
 app.listen(process.env.PORT , () => console.log('on line'));

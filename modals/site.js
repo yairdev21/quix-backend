@@ -68,7 +68,7 @@ const siteSchema = new mongoose.Schema({
             ]
         }
     ]
-});
+}, { minimize: false });
 
 const Site = mongoose.model('site', siteSchema);
 

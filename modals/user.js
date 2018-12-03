@@ -26,6 +26,11 @@ const userSchema = new mongoose.Schema({
         trim: true,
         minlength: 2
     },
+
+    image: {
+        type: String,
+        default: 'http://cdn.onlinewebfonts.com/svg/img_74993.png'
+    },
     
     sites: [
         {
