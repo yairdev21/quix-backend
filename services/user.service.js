@@ -1,6 +1,17 @@
 const { User } = require('../modals');
 
 const handleUser = {
+    async getUser(req, res, next) {
+        try {
+            res.status(200).json(
+                req.session.get('user')
+            );
+
+        } catch (err) {
+            next(err)
+        }
+    },
+
     async signUp(req, res, next) {
         try {
             const user = await User.create(req.body);
@@ -8,9 +19,7 @@ const handleUser = {
 
             req.session.login({userName, email, image},req, next)
 
-            res.status(200).json({
-                info: req.session.userInfo
-            })
+            res.status(200).json( req.session.user )
 
         } catch (err) {
             if (err.code === 11000) {
@@ -32,9 +41,10 @@ const handleUser = {
             const isMatch = await user.comperePassword( req.body.password );
 
             if( isMatch ) {
-                req.session.login({ userName, email, image, id },req, next)
-                
-                res.status(200).json(req.session.userInfo)
+                req.session.login({ userName, email, image, id },req, res, next)
+
+                res.cookie("user",req.session.user, {maxAge: 1000* 60 * 60 *24 * 365})
+                res.status(200).json(req.session.user)
             } else {                
                 next({
                     status: 400,
