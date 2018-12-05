@@ -1,0 +1,230 @@
+    [
+        {
+            "type": "section",
+            "name": "threeColsSection",
+            "data": {
+                "sm": "4"
+            },
+            "style": {},
+            "elements": [
+                {
+                    "style": {},
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                },
+                {
+                    "style": {},
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Gorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                },
+                {
+                    "style": {},
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Gorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "name": "twoColsSection",
+            "data": {
+                "sm": "6"
+            },
+            "style": {},
+            "elements": [
+                {
+                    "style": {},
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                },
+                {
+                    "style": {},
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "name": "oneColsSection",
+            "data": {
+                "sm": "12"
+            },
+            "style": {},
+            "elements": [
+                {
+                    "style": {},
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "name": "oneColsSectionWithMap",
+            "data": {
+                "sm": "6"
+            },
+            "style": {},
+            "elements": [
+                {
+                    "style": {},
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                },
+                {
+                    "style": {},
+                    "type": "map",
+                    "name": "map",
+                    "data": {
+                        "lat": "32.0880288",
+                        "lng": "34.803230100000064"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "name": "oneColsSectionWithVid",
+            "data": {
+                "sm": "6"
+            },
+            "style": {},
+            "elements": [
+                {
+                    "style": {},
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
+                    }
+                },
+                {
+                    "style": {},
+                    "type": "video",
+                    "name": "video",
+                    "data": {
+                        "src": "https://www.youtube.com/watch?v=n9SwtdrkVHE"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "name": "socialBtns",
+            "data": {
+                "sm": "4"
+            },
+            "style": {
+                "height": "6vh"
+            },
+            "elements": [
+                {
+                    "style": {},
+                    "type": "socialBtn",
+                    "name": "social-btn",
+                    "data": {
+                        "src": "facebook.com",
+                        "img": "facebook.png"
+                    }
+                },
+                {
+                    "style": {},
+                    "type": "text",
+                    "name": "text",
+                    "data": {
+                        "src": "facebook.com",
+                        "img": "facebook.png"
+                    }
+                },
+                {
+                    "style": {},
+                    "type": "socialBtn",
+                    "name": "social-btn",
+                    "data": {
+                        "src": "instagram.com",
+                        "img": "gmail.png"
+                    }
+                },
+                {
+                    "style": {},
+                    "type": "socialBtn",
+                    "name": "social-btn",
+                    "data": {
+                        "src": "facebook.com"
+                    }
+                }
+            ]
+        },
+        {
+            "style": {},
+            "type": "video",
+            "name": "video",
+            "data": {
+                "src": "https://www.youtube.com/watch?v=n9SwtdrkVHE"
+            }
+        },
+        {
+            "style": {},
+            "type": "text",
+            "name": "text",
+            "data": {
+                "text": "Your Words Here"
+            }
+        },
+        {
+            "type": "section",
+            "name": "contactComponent",
+            "data": {
+                "sm": "12"
+            },
+            "style": {},
+            "elements": [{
+                    "type": "contact",
+                    "name": "div",
+                    "data": {
+                    },
+                    "style": {}
+                }
+               
+            ]
+        },
+        {
+            "type": "section",
+            "name": "emptySection",
+            "data": {
+                "sm": "12"
+            },
+            "style": {},
+            "elements": [{
+                    "type": "empty",
+                    "name": "div",
+                    "data": {
+                    },
+                    "style": {}
+                }
+               
+            ]
+        }
+    ]
