@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8d3225975fb527761820",
-    "url": "/css/app.3932b579.css"
+    "revision": "02dd1a0bb61f3f3b1e19",
+    "url": "/css/app.361110d9.css"
   },
   {
-    "revision": "8d3225975fb527761820",
-    "url": "/js/app.4cf1cd6a.js"
+    "revision": "02dd1a0bb61f3f3b1e19",
+    "url": "/js/app.2daa92a9.js"
   },
   {
     "revision": "b66fe6c18c48090f2772",
@@ -48,10 +48,6 @@ self.__precacheManifest = [
     "url": "/fonts/Abel-Regular.7e3d2a92.ttf"
   },
   {
-    "revision": "be4590eba976dace111b6686f6dade52",
-    "url": "/fonts/Palatino-Linotype.be4590eb.ttf"
-  },
-  {
     "revision": "bdadb6ce95c5a2e7b673940721450d3c",
     "url": "/fonts/fa-regular-400.bdadb6ce.woff2"
   },
@@ -68,8 +64,8 @@ self.__precacheManifest = [
     "url": "/fonts/fa-regular-400.b48c48ea.ttf"
   },
   {
-    "revision": "659c4d58b00226541ef95c3a76e169c5",
-    "url": "/fonts/fa-brands-400.659c4d58.woff2"
+    "revision": "be4590eba976dace111b6686f6dade52",
+    "url": "/fonts/Palatino-Linotype.be4590eb.ttf"
   },
   {
     "revision": "8b7a9afd7b95f62e6ee8a72930bfb9ed",
@@ -80,6 +76,10 @@ self.__precacheManifest = [
     "url": "/fonts/fa-solid-900.fb493903.woff2"
   },
   {
+    "revision": "659c4d58b00226541ef95c3a76e169c5",
+    "url": "/fonts/fa-brands-400.659c4d58.woff2"
+  },
+  {
     "revision": "bcb927a742a8370b76642fd1a9a749c0",
     "url": "/fonts/fa-solid-900.bcb927a7.woff"
   },
@@ -88,20 +88,20 @@ self.__precacheManifest = [
     "url": "/fonts/fa-brands-400.ec0716ae.eot"
   },
   {
-    "revision": "f29ad0031ad2c1c14b771ce504e2bfa7",
-    "url": "/fonts/fa-solid-900.f29ad003.eot"
-  },
-  {
     "revision": "b69de69a4ff8ca0abe96ec0b0c180c5b",
     "url": "/fonts/fa-brands-400.b69de69a.ttf"
   },
   {
-    "revision": "0c41971339b9fc5b1cefb0abad1e2e69",
-    "url": "/img/fa-regular-400.0c419713.svg"
+    "revision": "f29ad0031ad2c1c14b771ce504e2bfa7",
+    "url": "/fonts/fa-solid-900.f29ad003.eot"
   },
   {
     "revision": "48f54f63d7711d0912a9a10205538fc4",
     "url": "/fonts/fa-solid-900.48f54f63.ttf"
+  },
+  {
+    "revision": "0c41971339b9fc5b1cefb0abad1e2e69",
+    "url": "/img/fa-regular-400.0c419713.svg"
   },
   {
     "revision": "4478b4d7022cad174e4c04246fe622ef",
@@ -120,7 +120,7 @@ self.__precacheManifest = [
     "url": "/img/homePage2.1d405496.png"
   },
   {
-    "revision": "f21404d9ffd43a02e76224b418ab84a1",
+    "revision": "06f93e00fb5709a80793c714ac63d1ea",
     "url": "/index.html"
   },
   {
