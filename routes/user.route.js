@@ -1,10 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const { signUp, signIn, logOut, getUser } = require('../services/user.service');
+const { signUp, signIn, isAuthorize } = require('../services/user.service');
 
-router.get( '/', getUser );
+router.get( '/', isAuthorize );
 router.post( '/signup', signUp );
 router.post( '/signin', signIn );
-router.post( '/logout', logOut );
 
 module.exports = router;
