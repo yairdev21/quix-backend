@@ -52,6 +52,10 @@ self.__precacheManifest = [
     "url": "/fonts/Abel-Regular.7e3d2a92.ttf"
   },
   {
+    "revision": "be4590eba976dace111b6686f6dade52",
+    "url": "/fonts/Palatino-Linotype.be4590eb.ttf"
+  },
+  {
     "revision": "bdadb6ce95c5a2e7b673940721450d3c",
     "url": "/fonts/fa-regular-400.bdadb6ce.woff2"
   },
@@ -66,10 +70,6 @@ self.__precacheManifest = [
   {
     "revision": "b48c48ea8457846a5695b139c377d3d1",
     "url": "/fonts/fa-regular-400.b48c48ea.ttf"
-  },
-  {
-    "revision": "be4590eba976dace111b6686f6dade52",
-    "url": "/fonts/Palatino-Linotype.be4590eb.ttf"
   },
   {
     "revision": "659c4d58b00226541ef95c3a76e169c5",
