@@ -226,5 +226,27 @@
                 }
                
             ]
+        },
+        {
+            "type": "section",
+            "name": "header",
+            "data": {
+                "sm": "12"
+            },
+            "style": {
+                "background":"cover",
+                "background-repeat":"norepeat"
+            },
+            "elements": [{
+                    "type": "header",
+                    "name": "header",
+                    "data": {
+                        "title":"This Is Your Header",
+                        "text":"What You Want to say?"
+                    },
+                    "style": {}
+                }
+               
+            ]
         }
     ]
