@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.4baeea48ebeca2b1df2918e89c784330.js"
+  "/precache-manifest.73a9179137cb88d47ac31044e780162f.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "quix"});
