@@ -1,13 +1,11 @@
-    [
-        {
+    [{
             "type": "section",
             "name": "threeColsSection",
             "data": {
                 "sm": "4"
             },
             "style": {},
-            "elements": [
-                {
+            "elements": [{
                     "style": {},
                     "type": "text",
                     "name": "p",
@@ -40,8 +38,7 @@
                 "sm": "6"
             },
             "style": {},
-            "elements": [
-                {
+            "elements": [{
                     "style": {},
                     "type": "text",
                     "name": "p",
@@ -66,16 +63,14 @@
                 "sm": "12"
             },
             "style": {},
-            "elements": [
-                {
-                    "style": {},
-                    "type": "text",
-                    "name": "p",
-                    "data": {
-                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
-                    }
+            "elements": [{
+                "style": {},
+                "type": "text",
+                "name": "p",
+                "data": {
+                    "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laboriosam aliquam, porro harum libero assumenda modi illum placeat iusto, sed quidem ut dolore iure corrupti expedita. Enim, velit necessitatibus! Mollitia!"
                 }
-            ]
+            }]
         },
         {
             "type": "section",
@@ -84,8 +79,7 @@
                 "sm": "6"
             },
             "style": {},
-            "elements": [
-                {
+            "elements": [{
                     "style": {},
                     "type": "text",
                     "name": "p",
@@ -111,8 +105,7 @@
                 "sm": "6"
             },
             "style": {},
-            "elements": [
-                {
+            "elements": [{
                     "style": {},
                     "type": "text",
                     "name": "p",
@@ -139,8 +132,7 @@
             "style": {
                 "height": "6vh"
             },
-            "elements": [
-                {
+            "elements": [{
                     "style": {},
                     "type": "socialBtn",
                     "name": "social-btn",
@@ -203,11 +195,10 @@
             "elements": [{
                     "type": "contact",
                     "name": "div",
-                    "data": {
-                    },
+                    "data": {},
                     "style": {}
                 }
-               
+
             ]
         },
         {
@@ -220,11 +211,10 @@
             "elements": [{
                     "type": "empty",
                     "name": "div",
-                    "data": {
-                    },
+                    "data": {},
                     "style": {}
                 }
-               
+
             ]
         },
         {
@@ -234,25 +224,28 @@
                 "sm": "12"
             },
             "style": {
-                "background":"cover",
-                "background-repeat":"norepeat"
+                "background": "cover",
+                "background-repeat": "norepeat"
             },
             "elements": [{
                     "type": "header",
                     "name": "header",
                     "data": {
-                        "title":"This Is Your Header",
-                        "text":"What You Want to say?"
+                        "title": "This Is Your Header",
+                        "text": "What You Want to say?"
                     },
                     "style": {}
                 }
-               
+
             ]
         },
         {
             "name": "image",
             "type": "image",
-            "style": {},
+            "style": {
+                "max-height": "75vh",
+                "padding":"3vw"
+            },
             "data": {
                 "src": ""
             }
