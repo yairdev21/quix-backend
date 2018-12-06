@@ -7,10 +7,11 @@ const handleUser = {
             const token = req.headers.authorization.split(' ')[1];
             console.log("token", token);
 
-            jwt.verify(token, process.env.SECRET_TOKEN_KEY, function(err, decoded) {
+            jwt.verify(token, process.env.SECRET_TOKEN_KEY, async function(err, decoded) {
                 if (decoded) {
-
-                    res.status(200).json({...decoded});
+                    const { sites } = await User.findById(decoded.id);
+                    
+                    res.status(200).json({...decoded, sites});
     
                 } else {
                     return next({
@@ -29,16 +30,6 @@ const handleUser = {
             });
         }
     },
-    // async getUser(req, res, next) {
-    //     try {
-    //         res.status(200).json(
-    //             req.session.get('user')
-    //         );
-
-    //     } catch (err) {
-    //         next(err)
-    //     }
-    // },
 
     async signUp(req, res, next) {
         try {
