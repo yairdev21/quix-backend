@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8649ebdf8a4958ff6a9b",
-    "url": "/css/app.e37ad1a8.css"
+    "revision": "d9d54b760688d19fac3b",
+    "url": "/css/app.80c7f940.css"
   },
   {
-    "revision": "8649ebdf8a4958ff6a9b",
-    "url": "/js/app.e1907ea4.js"
+    "revision": "d9d54b760688d19fac3b",
+    "url": "/js/app.ea4a46b5.js"
   },
   {
     "revision": "f47f479b417673826ff6",
@@ -52,20 +52,12 @@ self.__precacheManifest = [
     "url": "/fonts/Abel-Regular.7e3d2a92.ttf"
   },
   {
-    "revision": "be4590eba976dace111b6686f6dade52",
-    "url": "/fonts/Palatino-Linotype.be4590eb.ttf"
-  },
-  {
     "revision": "bdadb6ce95c5a2e7b673940721450d3c",
     "url": "/fonts/fa-regular-400.bdadb6ce.woff2"
   },
   {
     "revision": "0b5e3a5451fc62d9023ccafc85bc89db",
     "url": "/fonts/fa-regular-400.0b5e3a54.woff"
-  },
-  {
-    "revision": "6493321d567eb0f22bd5112fbcf044a8",
-    "url": "/fonts/fa-regular-400.6493321d.eot"
   },
   {
     "revision": "b48c48ea8457846a5695b139c377d3d1",
@@ -96,20 +88,28 @@ self.__precacheManifest = [
     "url": "/fonts/fa-brands-400.b69de69a.ttf"
   },
   {
-    "revision": "48f54f63d7711d0912a9a10205538fc4",
-    "url": "/fonts/fa-solid-900.48f54f63.ttf"
+    "revision": "6493321d567eb0f22bd5112fbcf044a8",
+    "url": "/fonts/fa-regular-400.6493321d.eot"
+  },
+  {
+    "revision": "be4590eba976dace111b6686f6dade52",
+    "url": "/fonts/Palatino-Linotype.be4590eb.ttf"
   },
   {
     "revision": "f29ad0031ad2c1c14b771ce504e2bfa7",
     "url": "/fonts/fa-solid-900.f29ad003.eot"
   },
   {
+    "revision": "42f9fd6acee87559ac0d6a33488db65e",
+    "url": "/img/fa-brands-400.42f9fd6a.svg"
+  },
+  {
     "revision": "0c41971339b9fc5b1cefb0abad1e2e69",
     "url": "/img/fa-regular-400.0c419713.svg"
   },
   {
-    "revision": "42f9fd6acee87559ac0d6a33488db65e",
-    "url": "/img/fa-brands-400.42f9fd6a.svg"
+    "revision": "48f54f63d7711d0912a9a10205538fc4",
+    "url": "/fonts/fa-solid-900.48f54f63.ttf"
   },
   {
     "revision": "4478b4d7022cad174e4c04246fe622ef",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/img/homePage2.1d405496.png"
   },
   {
-    "revision": "d904f5bd0ee7b1cb325b06ecde6aacb1",
+    "revision": "266b0da16c64f431cda2c87be54945cb",
     "url": "/index.html"
   },
   {
