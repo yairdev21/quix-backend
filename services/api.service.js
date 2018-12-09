@@ -3,6 +3,8 @@ const { Site, User } = require('../modals');
 const hendleApi = {
     async getTemplates(req, res, next) {
         try {
+            console.log('in');
+            
             const templates = await Site.find();
 
             res.status(200).json({
@@ -29,19 +31,17 @@ const hendleApi = {
 
     async addSite(req, res, next) {
         try {
-            let site = await Site.create(req.body);
+            const site = await Site.create(req.body);
+            const foundUser = await User.findById(site.user);
+            foundUser.sites.push(site.id);
 
-            if (req.params.id) {
-                let foundUser = await User.findById(req.params.id);
-                foundUser.sites.push(site.id);
+            await foundUser.save();
 
-                await foundUser.save();
-                let foundSite = await Site.findById(site._id).populate("user", {
-                    username: true,
-                });
-            }
+            const foundSite = await Site.findById(site._id).populate("user", {
+                email: true,
+            });
 
-            return res.status(200).json(site);
+            return res.status(200).json(foundSite);
         } catch (err) {
             next(err)
         }

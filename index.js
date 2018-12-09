@@ -13,7 +13,10 @@ const userRoute = require('./routes/user.route');
 const templatesRoute = require('./routes/sites.route');
 
 app.use(cors());
+<<<<<<< HEAD
 app.use(express.static('public'));
+=======
+>>>>>>> 357fb32b5f8ac260545d6658d2b693f12ab580c0
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/sites', templatesRoute );
