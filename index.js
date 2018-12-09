@@ -11,7 +11,7 @@ const bodyParser = require('body-parser');
 const errorHendler = require('./error-service/errors.service');
 const userRoute = require('./routes/user.route');
 const templatesRoute = require('./routes/sites.route');
-
+app.use(express.static('public'))
 app.use(cors());
 app.use(express.static('public'));
 app.use(bodyParser.json())
