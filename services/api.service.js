@@ -1,7 +1,4 @@
-const {
-    Site,
-    User
-} = require('../modals');
+const { Site, User } = require('../modals');
 
 const hendleApi = {
     async getTemplates(req, res, next) {
@@ -66,16 +63,10 @@ const hendleApi = {
     },
 
     async updateTamplate(req, res, next) {
-<<<<<<< HEAD
-        try {
-            const tamplate = await Site.findByIdAndUpdate(req.params.id, req.body, {
-                new: true
-            });
-=======
         try {            
             const tamplate = await Site.findByIdAndUpdate(req.params.id, req.body, {new: true});
+            // console.log( tamplate );
 
->>>>>>> a
             return res.status(200).json(tamplate);
         } catch (err) {
             next(err)
