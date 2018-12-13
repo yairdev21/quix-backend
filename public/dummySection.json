@@ -212,7 +212,9 @@
                     "type": "empty",
                     "name": "div",
                     "data": {},
-                    "style": {}
+                    "style": {
+                        "height":"25vh"
+                    }
                 }
 
             ]
@@ -225,7 +227,8 @@
             },
             "style": {
                 "background": "cover",
-                "background-repeat": "norepeat"
+                "background-repeat": "norepeat",
+                "background-position": "center"
             },
             "elements": [{
                     "type": "header",
