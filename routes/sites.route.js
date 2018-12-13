@@ -3,12 +3,13 @@ const router = express.Router();
 const hendleApi = require('../services/api.service');
 
 router.route('/')
-        .get( hendleApi.getTemplates )
-        .post( hendleApi.addSite );
-
+        .get(hendleApi.getTemplates)
+        .post(hendleApi.addSite);
+router.route('/name/:siteName')
+        .get(hendleApi.getSingleTamplateByName)
 router.route('/:id')
-        .get( hendleApi.getSingleTamplate )
-        .put( hendleApi.updateTamplate );
+        .get(hendleApi.getSingleTamplate)
+        .put(hendleApi.updateTamplate);
 //         .delete( hendleApi.deleteMessage );
 
 module.exports = router;

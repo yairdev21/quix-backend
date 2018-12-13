@@ -17,8 +17,23 @@ const hendleApi = {
     },
 
     async getSingleTamplate(req, res, next) {
+        console.log('inside getByID', {params: req.params})
         try {
             const tamplate = await Site.findById(req.params.id);
+
+            res.status(200).json({
+                tamplate
+            });
+
+        } catch (err) {
+            next(err)
+        }
+    },
+
+    async getSingleTamplateByName(req, res, next) {
+        console.log('inside getByName', {params: req.params})
+        try {
+            const tamplate = await Site.findOne({name: req.params.siteName});
 
             res.status(200).json({
                 tamplate
