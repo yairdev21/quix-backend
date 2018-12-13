@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "0ab3dd47d3d54330529c",
-    "url": "/css/app.9373cf5d.css"
+    "revision": "36604bb8620d880990a3",
+    "url": "/css/app.7dd4b77f.css"
   },
   {
-    "revision": "0ab3dd47d3d54330529c",
+    "revision": "36604bb8620d880990a3",
     "url": "/js/app.6abcb23a.js"
   },
   {
@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "/fonts/Abel-Regular.7e3d2a92.ttf"
   },
   {
-    "revision": "dc466c6319df694a72360d9601596ef9",
-    "url": "/fonts/Cinzel-Regular.dc466c63.ttf"
+    "revision": "01782a7fff27bc527f8af8095aac1098",
+    "url": "/fonts/ShadowsIntoLight.01782a7f.ttf"
   },
   {
     "revision": "d087e8311d5c78dce170de09761a879b",
     "url": "/fonts/Exo-Regular.d087e831.ttf"
   },
   {
-    "revision": "01782a7fff27bc527f8af8095aac1098",
-    "url": "/fonts/ShadowsIntoLight.01782a7f.ttf"
+    "revision": "dc466c6319df694a72360d9601596ef9",
+    "url": "/fonts/Cinzel-Regular.dc466c63.ttf"
   },
   {
     "revision": "f46f486edefeba66ac4b538dd593d656",
@@ -84,6 +84,14 @@ self.__precacheManifest = [
     "url": "/fonts/WorkSans-Regular.92bbabfd.ttf"
   },
   {
+    "revision": "083ce24d3acf457233d36990015573c4",
+    "url": "/fonts/Alegreya-Regular.083ce24d.ttf"
+  },
+  {
+    "revision": "be4590eba976dace111b6686f6dade52",
+    "url": "/fonts/Palatino-Linotype.be4590eb.ttf"
+  },
+  {
     "revision": "bdadb6ce95c5a2e7b673940721450d3c",
     "url": "/fonts/fa-regular-400.bdadb6ce.woff2"
   },
@@ -92,24 +100,24 @@ self.__precacheManifest = [
     "url": "/fonts/fa-regular-400.0b5e3a54.woff"
   },
   {
-    "revision": "6493321d567eb0f22bd5112fbcf044a8",
-    "url": "/fonts/fa-regular-400.6493321d.eot"
-  },
-  {
     "revision": "b48c48ea8457846a5695b139c377d3d1",
     "url": "/fonts/fa-regular-400.b48c48ea.ttf"
+  },
+  {
+    "revision": "6493321d567eb0f22bd5112fbcf044a8",
+    "url": "/fonts/fa-regular-400.6493321d.eot"
   },
   {
     "revision": "8b7a9afd7b95f62e6ee8a72930bfb9ed",
     "url": "/fonts/fa-brands-400.8b7a9afd.woff"
   },
   {
-    "revision": "bcb927a742a8370b76642fd1a9a749c0",
-    "url": "/fonts/fa-solid-900.bcb927a7.woff"
+    "revision": "fb493903265cad425ccdf8e04fc2de61",
+    "url": "/fonts/fa-solid-900.fb493903.woff2"
   },
   {
-    "revision": "083ce24d3acf457233d36990015573c4",
-    "url": "/fonts/Alegreya-Regular.083ce24d.ttf"
+    "revision": "bcb927a742a8370b76642fd1a9a749c0",
+    "url": "/fonts/fa-solid-900.bcb927a7.woff"
   },
   {
     "revision": "ec0716ae8aa1ba781a1a6bcbce833f6c",
@@ -120,28 +128,20 @@ self.__precacheManifest = [
     "url": "/fonts/fa-brands-400.b69de69a.ttf"
   },
   {
+    "revision": "f29ad0031ad2c1c14b771ce504e2bfa7",
+    "url": "/fonts/fa-solid-900.f29ad003.eot"
+  },
+  {
     "revision": "659c4d58b00226541ef95c3a76e169c5",
     "url": "/fonts/fa-brands-400.659c4d58.woff2"
-  },
-  {
-    "revision": "48f54f63d7711d0912a9a10205538fc4",
-    "url": "/fonts/fa-solid-900.48f54f63.ttf"
-  },
-  {
-    "revision": "fb493903265cad425ccdf8e04fc2de61",
-    "url": "/fonts/fa-solid-900.fb493903.woff2"
-  },
-  {
-    "revision": "be4590eba976dace111b6686f6dade52",
-    "url": "/fonts/Palatino-Linotype.be4590eb.ttf"
   },
   {
     "revision": "0c41971339b9fc5b1cefb0abad1e2e69",
     "url": "/img/fa-regular-400.0c419713.svg"
   },
   {
-    "revision": "f29ad0031ad2c1c14b771ce504e2bfa7",
-    "url": "/fonts/fa-solid-900.f29ad003.eot"
+    "revision": "48f54f63d7711d0912a9a10205538fc4",
+    "url": "/fonts/fa-solid-900.48f54f63.ttf"
   },
   {
     "revision": "4478b4d7022cad174e4c04246fe622ef",
@@ -160,8 +160,12 @@ self.__precacheManifest = [
     "url": "/img/image.60439ac8.png"
   },
   {
-    "revision": "87ac3128c654a47b28874233f4f2feb5",
+    "revision": "7e0c9a8a47edceec3ec8ad4346b84626",
     "url": "/index.html"
+  },
+  {
+    "revision": "19356a76cbe586e5c5437be536579fb1",
+    "url": "/dummySection.json"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
@@ -170,9 +174,5 @@ self.__precacheManifest = [
   {
     "revision": "e3a978d08d6a811ce33a87c8fb58c680",
     "url": "/sites.json"
-  },
-  {
-    "revision": "19356a76cbe586e5c5437be536579fb1",
-    "url": "/dummySection.json"
   }
 ];
