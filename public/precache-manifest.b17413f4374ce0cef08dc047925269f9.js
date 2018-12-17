@@ -1,27 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "36604bb8620d880990a3",
-    "url": "/css/app.7dd4b77f.css"
+    "revision": "da3839cb91af357ce551",
+    "url": "/css/app.e57c4238.css"
   },
   {
-    "revision": "36604bb8620d880990a3",
-    "url": "/js/app.6abcb23a.js"
+    "revision": "da3839cb91af357ce551",
+    "url": "/js/app.7e870ff1.js"
   },
   {
-    "revision": "8837e70fdf574a929afd",
+    "revision": "22684bd4d0e899e532e9",
     "url": "/css/chunk-vendors.9c460e00.css"
   },
   {
-    "revision": "8837e70fdf574a929afd",
-    "url": "/js/chunk-vendors.4b506742.js"
-  },
-  {
-    "revision": "1d405496529ac1920b11abb7c8581397",
-    "url": "/img/homePage2.1d405496.png"
-  },
-  {
-    "revision": "18a8a47eb84974dccd954250a44e91e7",
-    "url": "/img/7968.18a8a47e.jpg"
+    "revision": "22684bd4d0e899e532e9",
+    "url": "/js/chunk-vendors.93be0932.js"
   },
   {
     "revision": "3d5db956be9738cebdd5b0b4561692f7",
@@ -30,6 +22,14 @@ self.__precacheManifest = [
   {
     "revision": "d68d581fa634bbf8c898cd947c5de10d",
     "url": "/img/video.d68d581f.png"
+  },
+  {
+    "revision": "18a8a47eb84974dccd954250a44e91e7",
+    "url": "/img/7968.18a8a47e.jpg"
+  },
+  {
+    "revision": "b58da05ab7b4115f0ec46072b346e9b4",
+    "url": "/img/MainHeaderImg.b58da05a.jpg"
   },
   {
     "revision": "1c3b5ec5bb04571aa7e70351a062f5fa",
@@ -60,16 +60,20 @@ self.__precacheManifest = [
     "url": "/fonts/Abel-Regular.7e3d2a92.ttf"
   },
   {
+    "revision": "add6f5c22efed4afc52fc6d659939ee4",
+    "url": "/fonts/Rancho-Regular.add6f5c2.ttf"
+  },
+  {
+    "revision": "dc466c6319df694a72360d9601596ef9",
+    "url": "/fonts/Cinzel-Regular.dc466c63.ttf"
+  },
+  {
     "revision": "01782a7fff27bc527f8af8095aac1098",
     "url": "/fonts/ShadowsIntoLight.01782a7f.ttf"
   },
   {
     "revision": "d087e8311d5c78dce170de09761a879b",
     "url": "/fonts/Exo-Regular.d087e831.ttf"
-  },
-  {
-    "revision": "dc466c6319df694a72360d9601596ef9",
-    "url": "/fonts/Cinzel-Regular.dc466c63.ttf"
   },
   {
     "revision": "f46f486edefeba66ac4b538dd593d656",
@@ -82,6 +86,14 @@ self.__precacheManifest = [
   {
     "revision": "92bbabfda96fb9e73100d90404d5383a",
     "url": "/fonts/WorkSans-Regular.92bbabfd.ttf"
+  },
+  {
+    "revision": "462fa23a77453e753bc067b38dce027e",
+    "url": "/fonts/Italianno-Regular.462fa23a.ttf"
+  },
+  {
+    "revision": "d514dd01c962a593cab194d1ccfeb68e",
+    "url": "/fonts/PatrickHandSC-Regular.d514dd01.ttf"
   },
   {
     "revision": "083ce24d3acf457233d36990015573c4",
@@ -100,12 +112,16 @@ self.__precacheManifest = [
     "url": "/fonts/fa-regular-400.0b5e3a54.woff"
   },
   {
+    "revision": "6493321d567eb0f22bd5112fbcf044a8",
+    "url": "/fonts/fa-regular-400.6493321d.eot"
+  },
+  {
     "revision": "b48c48ea8457846a5695b139c377d3d1",
     "url": "/fonts/fa-regular-400.b48c48ea.ttf"
   },
   {
-    "revision": "6493321d567eb0f22bd5112fbcf044a8",
-    "url": "/fonts/fa-regular-400.6493321d.eot"
+    "revision": "659c4d58b00226541ef95c3a76e169c5",
+    "url": "/fonts/fa-brands-400.659c4d58.woff2"
   },
   {
     "revision": "8b7a9afd7b95f62e6ee8a72930bfb9ed",
@@ -132,16 +148,12 @@ self.__precacheManifest = [
     "url": "/fonts/fa-solid-900.f29ad003.eot"
   },
   {
-    "revision": "659c4d58b00226541ef95c3a76e169c5",
-    "url": "/fonts/fa-brands-400.659c4d58.woff2"
+    "revision": "48f54f63d7711d0912a9a10205538fc4",
+    "url": "/fonts/fa-solid-900.48f54f63.ttf"
   },
   {
     "revision": "0c41971339b9fc5b1cefb0abad1e2e69",
     "url": "/img/fa-regular-400.0c419713.svg"
-  },
-  {
-    "revision": "48f54f63d7711d0912a9a10205538fc4",
-    "url": "/fonts/fa-solid-900.48f54f63.ttf"
   },
   {
     "revision": "4478b4d7022cad174e4c04246fe622ef",
@@ -160,12 +172,16 @@ self.__precacheManifest = [
     "url": "/img/image.60439ac8.png"
   },
   {
-    "revision": "7e0c9a8a47edceec3ec8ad4346b84626",
+    "revision": "68c505e068ccb274b5d7622b824b6148",
     "url": "/index.html"
   },
   {
-    "revision": "19356a76cbe586e5c5437be536579fb1",
+    "revision": "047ad601afa95221e12a0e49a6fa1a00",
     "url": "/dummySection.json"
+  },
+  {
+    "revision": "9f5adbb96f8fc3f896a866ffb28154dc",
+    "url": "/barefootSite.json"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
