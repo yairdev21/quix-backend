@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "649fbad2a81a3afff228",
-    "url": "/css/app.7946b171.css"
+    "revision": "a67a4b905852a02b8f21",
+    "url": "/css/app.5f1b4c57.css"
   },
   {
-    "revision": "649fbad2a81a3afff228",
-    "url": "/js/app.1006bb62.js"
+    "revision": "a67a4b905852a02b8f21",
+    "url": "/js/app.7ff570d7.js"
   },
   {
     "revision": "22684bd4d0e899e532e9",
@@ -14,10 +14,6 @@ self.__precacheManifest = [
   {
     "revision": "22684bd4d0e899e532e9",
     "url": "/js/chunk-vendors.93be0932.js"
-  },
-  {
-    "revision": "b58da05ab7b4115f0ec46072b346e9b4",
-    "url": "/img/MainHeaderImg.b58da05a.jpg"
   },
   {
     "revision": "3d5db956be9738cebdd5b0b4561692f7",
@@ -60,10 +56,6 @@ self.__precacheManifest = [
     "url": "/fonts/Abel-Regular.7e3d2a92.ttf"
   },
   {
-    "revision": "add6f5c22efed4afc52fc6d659939ee4",
-    "url": "/fonts/Rancho-Regular.add6f5c2.ttf"
-  },
-  {
     "revision": "dc466c6319df694a72360d9601596ef9",
     "url": "/fonts/Cinzel-Regular.dc466c63.ttf"
   },
@@ -74,6 +66,10 @@ self.__precacheManifest = [
   {
     "revision": "d087e8311d5c78dce170de09761a879b",
     "url": "/fonts/Exo-Regular.d087e831.ttf"
+  },
+  {
+    "revision": "add6f5c22efed4afc52fc6d659939ee4",
+    "url": "/fonts/Rancho-Regular.add6f5c2.ttf"
   },
   {
     "revision": "f46f486edefeba66ac4b538dd593d656",
@@ -92,24 +88,24 @@ self.__precacheManifest = [
     "url": "/fonts/Italianno-Regular.462fa23a.ttf"
   },
   {
-    "revision": "d514dd01c962a593cab194d1ccfeb68e",
-    "url": "/fonts/PatrickHandSC-Regular.d514dd01.ttf"
-  },
-  {
     "revision": "083ce24d3acf457233d36990015573c4",
     "url": "/fonts/Alegreya-Regular.083ce24d.ttf"
+  },
+  {
+    "revision": "d514dd01c962a593cab194d1ccfeb68e",
+    "url": "/fonts/PatrickHandSC-Regular.d514dd01.ttf"
   },
   {
     "revision": "bdadb6ce95c5a2e7b673940721450d3c",
     "url": "/fonts/fa-regular-400.bdadb6ce.woff2"
   },
   {
-    "revision": "0b5e3a5451fc62d9023ccafc85bc89db",
-    "url": "/fonts/fa-regular-400.0b5e3a54.woff"
-  },
-  {
     "revision": "be4590eba976dace111b6686f6dade52",
     "url": "/fonts/Palatino-Linotype.be4590eb.ttf"
+  },
+  {
+    "revision": "0b5e3a5451fc62d9023ccafc85bc89db",
+    "url": "/fonts/fa-regular-400.0b5e3a54.woff"
   },
   {
     "revision": "6493321d567eb0f22bd5112fbcf044a8",
@@ -172,7 +168,11 @@ self.__precacheManifest = [
     "url": "/img/image.60439ac8.png"
   },
   {
-    "revision": "ad33531c73610358fbb909c43dbeafc0",
+    "revision": "b58da05ab7b4115f0ec46072b346e9b4",
+    "url": "/img/MainHeaderImg.b58da05a.jpg"
+  },
+  {
+    "revision": "99fb1b9e5890a2757b6340f5665b1e1b",
     "url": "/index.html"
   },
   {
@@ -180,12 +180,12 @@ self.__precacheManifest = [
     "url": "/dummySection.json"
   },
   {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
-    "url": "/robots.txt"
-  },
-  {
     "revision": "9f5adbb96f8fc3f896a866ffb28154dc",
     "url": "/barefootSite.json"
+  },
+  {
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "url": "/robots.txt"
   },
   {
     "revision": "e3a978d08d6a811ce33a87c8fb58c680",
