@@ -6,10 +6,10 @@ router.route('/')
         .get(hendleApi.getTemplates)
         .post(hendleApi.addSite);
 router.route('/name/:siteName')
-        .get(hendleApi.getSingleTamplateByName)
-        router.route('/user/:id')
-        .get(hendleApi.getUserTemplates)
-       
+        .get(hendleApi.getSingleTamplateByName);
+// router.route('/user/:id')
+//         .get(hendleApi.getUserTemplates);
+
 router.route('/:id')
         .get(hendleApi.getSingleTamplate)
         .put(hendleApi.updateTamplate);
