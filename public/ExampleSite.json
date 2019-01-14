@@ -1,0 +1,134 @@
+{
+    "_id": {
+        "$oid": "5c0e406b514673370892de75"
+    },
+    "name": "abcdefg",
+    "thumb": "http://res.cloudinary.com/bebarefoot/image/upload/v1545133597/DesignSite.png",
+    "sections": [
+        {
+            "_id": {
+                "$oid": "5c04d235b409a20a8c74cc78"
+            },
+            "style": {
+                "color": "white",
+                "background": {
+                    "isTrusted": true
+                },
+                "margin": "0 auto",
+                "background-repeat": "no-repeat",
+                "background-size": "100% 100%",
+                "padding": "10vh 0",
+                "background-image": "url(http://res.cloudinary.com/dqk87o0m5/image/upload/v1545034255/quix/uv5qm7xkfmeugnktlqcx.jpg",
+                "height": "28vw",
+                "z-index": "1",
+                "margin-bottom": "0"
+            },
+            "elements": [
+                {
+                    "_id": {
+                        "$oid": "5c04d235b409a20a8c74cc7a"
+                    },
+                    "style": {
+                        "font-size": "calc(1.2*4vw",
+                        "color": "black",
+                        "font-family": "Rancho",
+                        "margin-top": ".5em",
+                        "margin-bottom": "1em"
+                    },
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Internal Design\n"
+                    }
+                },
+                {
+                    "_id": {
+                        "$oid": "5c04d235b409a20a8c76cc79"
+                    },
+                    "style": {
+                        "font-size": "calc(1*4vw",
+                        "color": "black",
+                        "font-family": "Rancho"
+                    },
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "\n"
+                    }
+                }
+            ],
+            "type": "section",
+            "name": "header",
+            "data": {
+                "sm": "12"
+            }
+        },
+        {
+            "_id": {
+                "$oid": "5c090ef6e2ff90093869859a"
+            },
+            "style": {
+                "margin-bottom": "0"
+            },
+            "elements": [
+                {
+                    "_id": {
+                        "$oid": "5c090ef2e2ff90093869859b"
+                    },
+                    "style": {
+                        "font-size": "calc(1.2000000000000002*4vw",
+                        "color": "black",
+                        "font-family": "Rancho",
+                        "background": "gray",
+                        "margin": "-.8em 1.9em  ",
+                        "border-radius": "5px",
+                        "margin-bottom": "0"
+                    },
+                    "type": "text",
+                    "name": "p",
+                    "data": {
+                        "text": "Take your design to the next level\n\n"
+                    }
+                }
+            ],
+            "type": "section",
+            "name": "oneColsSectionWithVid",
+            "data": {
+                "sm": "12"
+            }
+        },
+        {
+            "_id": {
+                "$oid": "5f686f757173336263326968"
+            },
+            "style": {
+                "background-repeat": "no-repeat",
+                "background-size": "100% 100%",
+                "background-image": "url(http://res.cloudinary.com/bebarefoot/image/upload/v1545035367/contact.jpg"
+            },
+            "elements": [
+                {
+                    "_id": {
+                        "$oid": "5c1759aa52bffc293cbd644f"
+                    },
+                    "style": {},
+                    "type": "contact",
+                    "name": "div",
+                    "data": {}
+                }
+            ],
+            "type": "section",
+            "name": "contactComponent",
+            "data": {
+                "sm": "12"
+            }
+        }
+    ],
+    "__v": 0,
+    "date": {
+        "$date": "2018-12-13T10:09:14.972Z"
+    },
+    "user": {
+        "$oid": "5c0d033ffa95da0e1841dc58"
+    }
+}
