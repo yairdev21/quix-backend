@@ -21,6 +21,6 @@
     "express-session": "^1.15.6",
     "jsonwebtoken": "^8.4.0",
     "mongoose": "^5.3.13",
-    "validator": "^10.9.0"
+    "validator": "^13.7.0"
   }
 }
